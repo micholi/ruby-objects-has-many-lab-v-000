@@ -14,9 +14,9 @@ def add_song(song)
   song.artist = self
 end
 
-def add_song_by_name(song)
-  song = self.new(song)
-  artist.add_song(song)
+def add_song_by_name(name)
+  song = self.new(name)
+  
 end
 
 def songs
