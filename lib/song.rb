@@ -8,7 +8,7 @@ def initialize(name, artist = nil)
 end
 
 def name(name)
-
+  self.name
 end
 
 def artist_name
