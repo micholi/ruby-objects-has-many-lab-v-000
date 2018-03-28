@@ -24,6 +24,7 @@ end
 
 
 def song_count
+  self.@@song_count
 end
 
 end
