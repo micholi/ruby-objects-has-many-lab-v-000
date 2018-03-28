@@ -19,4 +19,8 @@ def add_post_by_title
   
 end
 
+def self.add_post_count
+
+end
+
 end
