@@ -7,4 +7,16 @@ def initialize(name)
   @posts = []
 end
 
+def posts
+  @posts
+end
+
+def add_post(post)
+
+end
+
+def add_post_by_title
+  
+end
+
 end
