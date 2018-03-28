@@ -7,9 +7,9 @@ attr_accessor :title, :author
     @author = author
   end
 
-  def title
-    self.title
-  end
+#  def title
+#    self.title
+#  end
 
 #  def author
 #    self.author.title
