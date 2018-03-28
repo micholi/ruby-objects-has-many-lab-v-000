@@ -16,4 +16,8 @@ def songs
   @songs
 end
 
+
+def song_count
+end
+
 end
