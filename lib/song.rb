@@ -7,9 +7,9 @@ def initialize(name, artist = nil)
   @artist = artist
 end
 
-def name
-  self.name
-end
+#def name
+#  self.name
+#end
 
 def artist_name
   self.artist.name if artist != nil
