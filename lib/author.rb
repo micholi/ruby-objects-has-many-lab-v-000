@@ -18,8 +18,11 @@ def add_post(post)
   @post_count += 1
 end
 
-def add_post_by_title
-
+def add_post_by_title(title)
+  # song = Song.new(name)
+  self.posts << post
+  post.author = self
+  @post_count += 1
 end
 
 def self.add_post_count
