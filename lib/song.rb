@@ -7,7 +7,7 @@ def initialize(name, artist = nil)
   @artist = artist
 end
 
-def name(name)
+def name
   self.name
 end
 
